@@ -81,13 +81,6 @@ p.p3 {
   font-size: 20px;
 }
 
-div.shrug:hover {
-  color: red;
-  text-shadow: 1px 2px 5px grey;
-  font-size: 50px;
-  cursor: not-allowed;
-}
-
 .email {
   color: #c0c5ce;
   text-decoration: none;
