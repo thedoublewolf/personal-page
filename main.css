@@ -1,0 +1,103 @@
+.font {
+  color: #343d46;
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  text-shadow: 1px 2px 5px grey;
+}
+
+.wolf {
+  width: 200px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub {
+  color: #4f5b66;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  text-shadow: 1px 2px 5px grey;
+}
+
+.body {
+  background-color: #f7f7f7;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+  text-align: center;
+}
+
+.findme {
+  color: #4f5b66;
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  padding: 5px;
+}
+
+.link {
+  color: #8b9dc3;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #c0c5ce;
+  cursor: 
+}
+
+p.p1 {
+  color: #343d46;
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+p.p2 {
+  color: #343d46;
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+p.p3 {
+  font-family: monospace;
+  text-align: center;
+  color: #c0c5ce;
+  font-size: 20px;
+}
+
+div.shrug {
+  font-size: 10px;
+}
+
+div.shrug:hover {
+  color: red;
+  text-shadow: 1px 2px 5px grey;
+  font-size: 50px;
+  cursor: not-allowed;
+}
+
+.email {
+  color: #c0c5ce;
+  text-decoration: none;
+  background: #343d46;
+  padding: 5px;
+}
+
+.email:hover {
+  color: #343d46;
+  background: #c0c5ce;
+  cursor: crosshair;
+}
