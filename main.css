@@ -24,7 +24,7 @@ table {
 }
 
 .body {
-  background-color: #f7f7f7;
+  background-color: #eeeeee;
   width: 450px;
   margin-left: auto;
   margin-right: auto;
@@ -47,9 +47,12 @@ li {
 }
 
 .link {
-  color: #8b9dc3;
-  background-color: transparent;
+  color: #f0f0f0;
   text-decoration: none;
+  background: #797980;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
 }
 
 .link:hover {
@@ -78,15 +81,23 @@ p.p3 {
   font-size: 20px;
 }
 
+div.shrug:hover {
+  color: red;
+  text-shadow: 1px 2px 5px grey;
+  font-size: 50px;
+  cursor: not-allowed;
+}
+
 .email {
   color: #c0c5ce;
   text-decoration: none;
-  background: #343d46;
+  background: #222224;
   padding: 5px;
+  border-radius: 5px;
 }
 
 .email:hover {
   color: #343d46;
-  background: #c0c5ce;
+  background: #ee1515;
   cursor: crosshair;
 }
