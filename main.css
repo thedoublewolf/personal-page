@@ -1,5 +1,5 @@
 .font {
-  color: #343d46;
+  color: #222224;
   text-align: center;
   font-family: monospace;
   font-size: 30px;
@@ -16,7 +16,7 @@ table {
 }
 
 .sub {
-  color: #4f5b66;
+  color: #797980;
   text-align: center;
   font-family: monospace;
   font-size: 20px;
@@ -33,7 +33,7 @@ table {
 }
 
 .findme {
-  color: #4f5b66;
+  color: #797980;
   font-family: monospace;
 }
 
@@ -81,7 +81,7 @@ p.p3 {
 }
 
 .email {
-  color: #c0c5ce;
+  color: #f0f0f0;
   text-decoration: none;
   background: #222224;
   padding: 5px;
@@ -89,7 +89,6 @@ p.p3 {
 }
 
 .email:hover {
-  color: #343d46;
-  background: #ee1515;
+  color: #c0c5ce;
   cursor: crosshair;
 }
