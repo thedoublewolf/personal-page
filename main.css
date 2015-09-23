@@ -1,94 +1,76 @@
-.font {
-  color: #222224;
+.body {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  font-family: monospace;
-  font-size: 30px;
-  text-shadow: 1px 2px 5px grey;
+}
+
+a {
+  text-indent:0;
+  display:inline-block;
+  color:#777777;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:150px;
+  line-height:50px;
+  width:150px;
+  text-decoration: none;
+  text-align:center;
+  text-shadow:1px 1px 0px #ffffff;
+}a:hover {
+  background-color:#dfdfdf;
+}a:active {
+  position:relative;
+  top:1px;
 }
 
 .wolf {
-  width: 200px;
-}
-
-table {
+  display: block;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.sub {
-  color: #797980;
-  text-align: center;
+.square {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
   font-family: monospace;
-  font-size: 20px;
-  text-shadow: 1px 2px 5px grey;
+  font-size: 30px;
+  background: #eeeeee;
+  border-radius: 10px;
+}
+.square:hover {
+  background: #f7f7f7;
+  font-size: 35px;
 }
 
-.body {
-  background-color: #eeeeee;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 4px;
-  text-align: center;
-}
 
-.findme {
-  color: #797980;
+.horz {
+  vertical-align: middle;
+  width: 550px;
+  height: 150px;
   font-family: monospace;
+  font-size: 30px;
+  background: #eeeeee;
+  border-radius: 10px;
+}
+.horz:hover {
+  background: #f7f7f7;
+  font-size: 35px;
 }
 
-ul {
-  list-style: none;
-  padding: 0px;
-}
-
-li {
-  padding: 5px;
-}
-
-.link {
-  color: #f0f0f0;
-  text-decoration: none;
-  background: #797980;
-  padding: 10px;
-  border-radius: 5px;
-  font-family: sans-serif;
-}
-
-.link:hover {
-  color: #c0c5ce; 
-}
-
-p.p1 {
-  color: #343d46;
-  font-family: sans-serif;
-  text-decoration: underline;
-  text-align: center;
-}
-
-p.p2 {
-  color: #343d46;
-  font-family: sans-serif;
-  text-decoration: underline;
-  text-align: center;
-}
-
-p.p3 {
+.vert {
+  vertical-align: middle;
+  width: 150px;
+  height: 550px;
   font-family: monospace;
-  text-align: center;
-  color: #c0c5ce;
-  font-size: 20px;
+  font-size: 30px;
+  background: #eeeeee;
+  border-radius: 10px;
 }
-
-.email {
-  color: #f0f0f0;
-  text-decoration: none;
-  background: #222224;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.email:hover {
-  color: #c0c5ce;
-  cursor: crosshair;
+.vert:hover {
+  background: #f7f7f7;
+  font-size: 35px;
 }
