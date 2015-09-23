@@ -4,25 +4,20 @@
   text-align: center;
 }
 
-a {
-  text-indent:0;
-  display:inline-block;
-  color:#777777;
-  font-family:arial;
-  font-size:15px;
-  font-weight:bold;
-  font-style:normal;
-  height:150px;
-  line-height:50px;
-  width:150px;
+.name {
+  line-height: 140px;
+  display: inline-block;
+  color: #333333;
+  font-family: monospace;
+  font-size: 60px;
+  font-weight: bold;
+  height: 150px;
+  width: 550px;
+  background: #eeeeee;
   text-decoration: none;
-  text-align:center;
-  text-shadow:1px 1px 0px #ffffff;
-}a:hover {
-  background-color:#dfdfdf;
-}a:active {
-  position:relative;
-  top:1px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
 }
 
 .wolf {
@@ -30,47 +25,164 @@ a {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  animation-name: wolf;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes wolf {  
+    50% {
+        transform: scale(1.05);
+        }
 }
 
 .square {
-  vertical-align: middle;
-  width: 150px;
-  height: 150px;
+  line-height: 140px;
+  display: inline-block;
+  color: #716d6a;
   font-family: monospace;
   font-size: 30px;
+  font-weight: bold;
+  height: 150px;
+  width: 150px;
   background: #eeeeee;
+  text-decoration: none;
+  text-align: center;
   border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
 }
 .square:hover {
-  background: #f7f7f7;
-  font-size: 35px;
+  background: #eeeeee;
+  font-size: 25px;
+  box-shadow: none;
 }
 
-
-.horz {
-  vertical-align: middle;
-  width: 550px;
-  height: 150px;
+.square2 {
+  line-height: 140px;
+  display: inline-block;
+  color: #716d6a;
   font-family: monospace;
   font-size: 30px;
+  font-weight: bold;
+  height: 150px;
+  width: 150px;
   background: #eeeeee;
+  text-decoration: none;
+  text-align: center;
   border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
+}
+.square2:hover {
+  background: #eeeeee;
+  font-size: 25px;
+  box-shadow: none;
+}
+
+.square3 {
+  line-height: 140px;
+  display: inline-block;
+  color: #716d6a;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  height: 150px;
+  width: 150px;
+  background: #eeeeee;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
+}
+.square3:hover {
+  background: #eeeeee;
+  font-size: 25px;
+  box-shadow: none;
+}
+
+.square4 {
+  line-height: 140px;
+  display: inline-block;
+  color: #716d6a;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  height: 150px;
+  width: 150px;
+  background: #eeeeee;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
+}
+.square4:hover {
+  background: #eeeeee;
+  font-size: 25px;
+  box-shadow: none;
+}
+
+.horz {
+  line-height: 140px;
+  display: inline-block;
+  color: #716d6a;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  height: 150px;
+  width: 550px;
+  background: #eeeeee;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
 }
 .horz:hover {
-  background: #f7f7f7;
-  font-size: 35px;
+  background: #eeeeee;
+  font-size: 25px;
+  box-shadow: none;
 }
 
 .vert {
-  vertical-align: middle;
-  width: 150px;
-  height: 550px;
+  line-height: 40px;
+  display: inline-block;
+  color: #716d6a;
   font-family: monospace;
   font-size: 30px;
+  font-weight: bold;
+  height: 450px;
+  width: 150px;
   background: #eeeeee;
+  text-decoration: none;
+  text-align: center;
   border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
 }
 .vert:hover {
-  background: #f7f7f7;
-  font-size: 35px;
+  background: #eeeeee;
+  font-size: 25px;
+  box-shadow: none;
+}
+
+.vert2 {
+  line-height: 40px;
+  display: inline-block;
+  color: #716d6a;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  height: 450px;
+  width: 150px;
+  background: #eeeeee;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px grey;
+}
+.vert2:hover {
+  background: #eeeeee;
+  font-size: 25px;
+  box-shadow: none;
 }
